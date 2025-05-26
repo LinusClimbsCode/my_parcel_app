@@ -1,2 +1,3 @@
-	
-console.log('Hello world!');
+import * as Leaflet from 'leaflet';
+ 
+console.log(Leaflet);
