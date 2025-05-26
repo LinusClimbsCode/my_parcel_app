@@ -1,11 +1,16 @@
 {
   "devDependencies": {
-    "parcel": "^2.15.2"
+    "@tailwindcss/postcss": "^4.1.7",
+    "parcel": "^2.15.2",
+    "tailwindcss": "^4.1.7"
   },
   "name": "my-parcel-app",
   "source": "index.html",
   "scripts": {
     "dev": "parcel",
     "build": "parcel build"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4"
   }
 }
